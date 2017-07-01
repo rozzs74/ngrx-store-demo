@@ -6,11 +6,13 @@ import { CounterNonStoreComponent } from './core-concept/counter-non-store/count
 import { CounterStoreComponent } from './core-concept/counter-store/counter-store/counter-store.component';
 
 import { counter } from './reducers/counter';
+import { SubjectDispatcherComponent } from './building-blocks/subject-dispatcher/subject-dispatcher.component';
 @NgModule({
   declarations: [
     AppComponent,
     CounterNonStoreComponent,
-    CounterStoreComponent
+    CounterStoreComponent,
+    SubjectDispatcherComponent
   ],
   imports: [
     BrowserModule,
