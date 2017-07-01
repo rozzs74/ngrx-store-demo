@@ -8,13 +8,15 @@ import { CounterStoreComponent } from './core-concept/counter-store/counter-stor
 import { counter } from './reducers/counter';
 import { SubjectDispatcherComponent } from './building-blocks/subject-dispatcher/subject-dispatcher.component';
 import { BehaviorSubjectComponent } from './building-blocks/behavior-subject-dispatcher/behavior-subject/behavior-subject.component';
+import { StoreDispatcherComponent } from './store-dispatcher-data-flow/store-dispatcher/store-dispatcher.component';
 @NgModule({
   declarations: [
     AppComponent,
     CounterNonStoreComponent,
     CounterStoreComponent,
     SubjectDispatcherComponent,
-    BehaviorSubjectComponent
+    BehaviorSubjectComponent,
+    StoreDispatcherComponent
   ],
   imports: [
     BrowserModule,
