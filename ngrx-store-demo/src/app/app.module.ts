@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CounterNonStoreComponent } from './core-concept/counter-non-store/counter-non-store.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterNonStoreComponent
   ],
   imports: [
     BrowserModule
