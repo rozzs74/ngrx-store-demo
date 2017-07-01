@@ -11,6 +11,7 @@ import { BehaviorSubjectComponent } from './building-blocks/behavior-subject-dis
 import { StoreDispatcherComponent } from './store-dispatcher-data-flow/store-dispatcher/store-dispatcher.component';
 import { ReducersComponent } from './reducer-demo/reducers/reducers.component';
 import { ReducerReduxStlyeComponent } from './reducer-redux-style/reducer-redux-stlye/reducer-redux-stlye.component';
+import { ScanDemoComponent } from './scan-demo/scan-demo/scan-demo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { ReducerReduxStlyeComponent } from './reducer-redux-style/reducer-redux-
     BehaviorSubjectComponent,
     StoreDispatcherComponent,
     ReducersComponent,
-    ReducerReduxStlyeComponent
+    ReducerReduxStlyeComponent,
+    ScanDemoComponent
   ],
   imports: [
     BrowserModule,
