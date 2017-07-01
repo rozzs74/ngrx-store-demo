@@ -9,6 +9,7 @@ import { counter } from './reducers/counter';
 import { SubjectDispatcherComponent } from './building-blocks/subject-dispatcher/subject-dispatcher.component';
 import { BehaviorSubjectComponent } from './building-blocks/behavior-subject-dispatcher/behavior-subject/behavior-subject.component';
 import { StoreDispatcherComponent } from './store-dispatcher-data-flow/store-dispatcher/store-dispatcher.component';
+import { ReducersComponent } from './reducer-demo/reducers/reducers.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { StoreDispatcherComponent } from './store-dispatcher-data-flow/store-dis
     CounterStoreComponent,
     SubjectDispatcherComponent,
     BehaviorSubjectComponent,
-    StoreDispatcherComponent
+    StoreDispatcherComponent,
+    ReducersComponent
   ],
   imports: [
     BrowserModule,
