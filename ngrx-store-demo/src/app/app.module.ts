@@ -12,6 +12,7 @@ import { StoreDispatcherComponent } from './store-dispatcher-data-flow/store-dis
 import { ReducersComponent } from './reducer-demo/reducers/reducers.component';
 import { ReducerReduxStlyeComponent } from './reducer-redux-style/reducer-redux-stlye/reducer-redux-stlye.component';
 import { ScanDemoComponent } from './scan-demo/scan-demo/scan-demo.component';
+import { MiddlewareLetDemoComponent } from './middleware-store-demo/middleware-let-demo/middleware-let-demo.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ScanDemoComponent } from './scan-demo/scan-demo/scan-demo.component';
     StoreDispatcherComponent,
     ReducersComponent,
     ReducerReduxStlyeComponent,
-    ScanDemoComponent
+    ScanDemoComponent,
+    MiddlewareLetDemoComponent
   ],
   imports: [
     BrowserModule,
