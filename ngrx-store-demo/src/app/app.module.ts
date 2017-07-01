@@ -10,6 +10,7 @@ import { SubjectDispatcherComponent } from './building-blocks/subject-dispatcher
 import { BehaviorSubjectComponent } from './building-blocks/behavior-subject-dispatcher/behavior-subject/behavior-subject.component';
 import { StoreDispatcherComponent } from './store-dispatcher-data-flow/store-dispatcher/store-dispatcher.component';
 import { ReducersComponent } from './reducer-demo/reducers/reducers.component';
+import { ReducerReduxStlyeComponent } from './reducer-redux-style/reducer-redux-stlye/reducer-redux-stlye.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { ReducersComponent } from './reducer-demo/reducers/reducers.component';
     SubjectDispatcherComponent,
     BehaviorSubjectComponent,
     StoreDispatcherComponent,
-    ReducersComponent
+    ReducersComponent,
+    ReducerReduxStlyeComponent
   ],
   imports: [
     BrowserModule,
