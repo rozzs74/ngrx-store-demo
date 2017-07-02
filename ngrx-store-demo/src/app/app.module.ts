@@ -25,7 +25,9 @@ import { MiddlewareLetDemoComponent } from './middleware-store-demo/middleware-l
     ReducersComponent,
     ReducerReduxStlyeComponent,
     ScanDemoComponent,
-    MiddlewareLetDemoComponent
+    MiddlewareLetDemoComponent 
+    
+
   ],
   imports: [
     BrowserModule,
