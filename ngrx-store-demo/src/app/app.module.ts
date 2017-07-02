@@ -19,14 +19,13 @@ import { MiddlewareLetDemoComponent } from './middleware-store-demo/middleware-l
     AppComponent,
     CounterNonStoreComponent,
     CounterStoreComponent,
-    /*
     SubjectDispatcherComponent,
     BehaviorSubjectComponent,
     StoreDispatcherComponent,
     ReducersComponent,
     ReducerReduxStlyeComponent,
     ScanDemoComponent,
-    MiddlewareLetDemoComponent */
+    MiddlewareLetDemoComponent 
     
 
   ],
